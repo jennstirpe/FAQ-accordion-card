@@ -14,59 +14,74 @@
 </head>
 <body>
 
-  <main>
+  <div class="desktop">
+    <img id="banner-box-desktop" src="images/illustration-box-desktop.svg" alt="">
 
-    <div class="banner">
-      <img src="images/illustration-woman-online-mobile.svg" alt="banner">
-    </div>
-    
-    <div class="faq-card">
-      <h1>FAQ</h1>
 
-      <ul class="questions-list">
-        <li>
-          <a href="#" class="question">How many team members can I invite? <img src="images/icon-arrow-down.svg" alt="arrow"></a>
-          <span class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on 
-            team members for the Premium plan.</span>
-        </li>
-        <li>
-          <a href="#" class="question">What is the maximum file upload size? <img src="images/icon-arrow-down.svg" alt="arrow"></a>
-          <span class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</span>
-        </li>
-        <li>
-          <a href="#" class="question">How do I reset my password? <img src="images/icon-arrow-down.svg" alt="arrow"></a>
-          <span class="answer">Click “Forgot password” from the login page or “Change password” from your profile page.
-            A reset link will be emailed to you.</span>
-        </li>
-        <li>
-          <a href="#" class="question">Can I cancel my subscription? <img src="images/icon-arrow-down.svg" alt="arrow"></a>
-          <span class="answer">Yes! Send us a message and we’ll process your request no questions asked.</span>
-        </li>
-        <li>
-          <a href="#" class="question">Do you provide additional support? <img src="images/icon-arrow-down.svg" alt="arrow"></a>
-          <span class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</span>
-        </li>
-      </ul>
-      
-    </div>
-      
-      
-    
-      
+    <main class="component">
 
+      <div class="banner">
+        <div class="banner-mobile">
+          <img id="banner-shadow-mobile" src="images/bg-pattern-mobile.svg">
+          <img id="banner-img-mobile" src="images/illustration-woman-online-mobile.svg" alt="banner">
+        </div>
     
-      
-      
-    
-      
-      
-    
-      
-      
-    </div>
-    
-  </main>
+        <div class="banner-desktop">
+          <img id="banner-shadow-desktop" src="images/bg-pattern-desktop.svg">
+          
+          <img id="banner-img-desktop" src="images/illustration-woman-online-desktop.svg" alt="banner">
+        </div>
+      </div>
 
+      <div class="faq">
+        <div class="faq-card">
+          <h1>FAQ</h1>
+    
+          <ul class="questions-list">
+            <li>
+              <a class="question" href="#">
+                How many team members can I invite?
+                <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
+              </a>
+              <p class="answer hidden">You can invite up to 2 additional users on the Free plan. There is no limit on 
+                team members for the Premium plan.</p>
+            </li>
+            <li>
+              <a class="question" href="#">
+                What is the maximum file upload size?
+                <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
+              </a>
+              <p class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+            </li>
+            <li>
+              <a class="question" href="#">
+                How do I reset my password?
+                <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
+              </a>
+              <p class="answer hidden" href="#">Click “Forgot password” from the login page or “Change password” from your profile page.
+                A reset link will be emailed to you.</p>
+            </li>
+            <li>
+              <a class="question" href="#">
+                Can I cancel my subscription?
+                <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
+              </a>
+              <p class="answer hidden">Yes! Send us a message and we’ll process your request no questions asked.</p>
+            </li>
+            <li>
+              <a class="question" href="#">
+                Do you provide additional support?
+                <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
+              </a>
+              <p class="answer hidden">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+    
+    </main>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
